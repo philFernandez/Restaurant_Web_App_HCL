@@ -1,7 +1,8 @@
 body {
     background-color: tomato;
 }
-header {
+
+h1 {
     text-shadow: 2px 2px 8px grey;
     font-family: fantasy;
 }
@@ -9,4 +10,12 @@ header {
     box-shadow: 2px 2px 8px black;
     border-radius: 55px 55px 55px 55px;
     overflow: hidden;
+}
+
+p.overview {
+    font-size: 1.5rem;
+}
+
+hr.bottom {
+    margin-bottom: 15rem;
 }
