@@ -1,0 +1,12 @@
+body {
+    background-color: tomato;
+}
+header {
+    text-shadow: 2px 2px 8px grey;
+    font-family: fantasy;
+}
+.carousel {
+    box-shadow: 2px 2px 8px black;
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}
