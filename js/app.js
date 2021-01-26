@@ -67,6 +67,6 @@ const searchMenu = () => {
   });
 }
 document.addEventListener("DOMContentLoaded", (e) => {
-  // getUserMessageInfo();
+  getUserMessageInfo();
   searchMenu();
 });
