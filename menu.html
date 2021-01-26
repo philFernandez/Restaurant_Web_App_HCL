@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/jpg" href="./img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,131 +24,143 @@
     <title>Menu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a href="./index.html" class="navbar-brand"
-          ><img src="./img/favicon.ico" alt="" width="30" height="24"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#" class="nav-link active" aria-current="page">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contact Us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item">(555) 555-5555</li>
-                <li class="dropdown-item">123 2nd Ave</li>
-                <li class="dropdown-item">Townville, CA</li>
-                <li>
-                  <hr class="dropdown-divider" />
-                  <a class="dropdown-item" href="./contact.html">Message Us</a>
+    <div id="page-container">
+      <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand"
+              ><img src="./img/favicon.ico" alt="" width="30" height="24"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active" aria-current="page"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">Best Sellers</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contact Us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="dropdown-item">(555) 555-5555</li>
+                    <li class="dropdown-item">123 2nd Ave</li>
+                    <li class="dropdown-item">Townville, CA</li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                      <a class="dropdown-item" href="./contact.html"
+                        >Message Us</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <header class="text-center">
+          <h1 class="display-4 mt-4 mb-4">Menu</h1>
+        </header>
+        <main>
+          <div class="container">
+            <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th>Dish</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lemon Chicken</td>
+                  <td>$8.00</td>
+                </tr>
+                <tr>
+                  <td>Sweet & Sour Pork</td>
+                  <td>$8.00</td>
+                </tr>
+                <tr>
+                  <td>Chow Mein</td>
+                  <td>$6.00</td>
+                </tr>
+                <tr>
+                  <td>Chicken Fried Rice</td>
+                  <td>$4.00</td>
+                </tr>
+                <tr>
+                  <td>Pork Fried Rice</td>
+                  <td>$4.00</td>
+                </tr>
+                <tr>
+                  <td>Pot Stickers</td>
+                  <td>$7.00</td>
+                </tr>
+                <tr>
+                  <td>Foil Chicken</td>
+                  <td>$7.00</td>
+                </tr>
+                <tr>
+                  <td>Combo Plate 1</td>
+                  <td>$12.00</td>
+                </tr>
+                <tr>
+                  <td>Combo Plate 2</td>
+                  <td>$12.00</td>
+                </tr>
+                <tr>
+                  <td>Combo Plate 3</td>
+                  <td>$12.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
       </div>
-    </nav>
-    <header class="text-center">
-      <h1 class="display-4 mt-4 mb-4">Menu</h1>
-    </header>
-    <main>
-      <div class="container">
-        <table class="table table-striped table-dark">
-          <thead>
-            <tr>
-              <th>Dish</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Lemon Chicken</td>
-              <td>$8.00</td>
-            </tr>
-            <tr>
-              <td>Sweet & Sour Pork</td>
-              <td>$8.00</td>
-            </tr>
-            <tr>
-              <td>Chow Mein</td>
-              <td>$6.00</td>
-            </tr>
-            <tr>
-              <td>Chicken Fried Rice</td>
-              <td>$4.00</td>
-            </tr>
-            <tr>
-              <td>Pork Fried Rice</td>
-              <td>$4.00</td>
-            </tr>
-            <tr>
-              <td>Pot Stickers</td>
-              <td>$7.00</td>
-            </tr>
-            <tr>
-              <td>Foil Chicken</td>
-              <td>$7.00</td>
-            </tr>
-            <tr>
-              <td>Combo Plate 1</td>
-              <td>$12.00</td>
-            </tr>
-            <tr>
-              <td>Combo Plate 2</td>
-              <td>$12.00</td>
-            </tr>
-            <tr>
-              <td>Combo Plate 3</td>
-              <td>$12.00</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="text-center">
+      <footer id="footer" class="text-center">
         <img
-          width="25%"
-          height="25%"
+          width="10%"
+          height="10%"
           src="./img/dragon.png"
           alt="..."
           class="img-fluid"
         />
-      </div>
-    </main>
+        <p>
+          © Ming's Diner 2021 <br />
+          <span id="author">Developed with ♥ by <b>Phil Fernandez</b></span>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>

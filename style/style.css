@@ -1,21 +1,41 @@
 body {
-    background-color: tomato;
+  background-color: tomato;
 }
 
 h1 {
-    text-shadow: 2px 2px 8px grey;
-    font-family: fantasy;
+  text-shadow: 2px 2px 8px grey;
+  font-family: fantasy;
 }
 .carousel {
-    box-shadow: 2px 2px 8px black;
-    border-radius: 55px 55px 55px 55px;
-    overflow: hidden;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
 }
 
 p.overview {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 hr.bottom {
-    margin-bottom: 15rem;
+  margin-bottom: 15rem;
+}
+
+span#author {
+    font-family: 'Sacramento', cursive;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
 }
