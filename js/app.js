@@ -1,3 +1,6 @@
+/**
+ * Use javascript to obtain form data from user
+ */
 document.addEventListener("DOMContentLoaded", (e) => {
   let submitBtn = document.querySelector("button#contact");
   let emailField = document.querySelector("#emailInput");
